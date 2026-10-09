@@ -13,4 +13,4 @@ for elem in text.split():
 top = (sorted(words.items(), key=lambda x: x[1], reverse=True))
 
 top_5 = [item[0] for item in top[:5]]
-print(*top_5)
+print("Пять самых встречающихся слов:", *top_5)
